@@ -1,0 +1,12 @@
+{
+  "name": "@hota1024/snippets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "markits typescript.md ~/Library/Application\\ Support/Code/User/snippets/typescript.code-snippets -o"
+  },
+  "dependencies": {
+    "markits": "^0.0.2"
+  }
+}
