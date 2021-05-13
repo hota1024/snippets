@@ -178,6 +178,15 @@ export type ${1:name} = (${3:arguments}) => ${4:return_type}
 
 ```
 
+## `ef` - export a function
+
+```typescript typescriptreact
+${3:document}
+export function ${1:name}(${2:arguments}): ${4:return_type} {
+  ${5:body}
+}
+```
+
 ## `eaf` - export a arrow function
 
 ```typescript typescriptreact
