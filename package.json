@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "markits typescript.md ~/Library/Application\\ Support/Code/User/snippets/typescript.code-snippets -o"
+    "build": "markits typescript.md ~/Library/Application\\ Support/Code/User/snippets/typescript.code-snippets -o",
+    "build:win": "markits typescript.md /mnt/c/Users/hotak/AppData/Roaming/Code/User/snippets/typescript.json -o"
   },
   "dependencies": {
     "markits": "^0.0.2"
